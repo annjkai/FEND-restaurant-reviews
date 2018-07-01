@@ -8,11 +8,11 @@ For the **Restaurant Reviews** projects, you will incrementally convert a static
 
 ### Specification
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality.
 
 ### What do I do from here?
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
 In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
 
@@ -22,11 +22,23 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 
 ## Leaflet.js and Mapbox:
 
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
+This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
 
 ### Note about ES6
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
+Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
 
+### Notes
 
+Some notes:
+1. For accessibility requirements take care of aria roles for non semantic elements, labels, focus order and alternative text.
+2. For Responsive requirements take care of the position of map in restaurant.html page. Because its position is set to fixed.
+3. For service workers and cash part try to revise "introducing service worker" lesson and walk through service worker step by step with the lesson. You need to:
+Register a sw. (in the main.js)
+Test its status.(optional)
+In sw file : You will make use of install, activate, and fetch events listeners to make the followings: Open a cache/ Cache needed urls. / Delete old caches./ Respond to requests.
 
+Some extra notes:
+1. Don't forget to change the port to your local host port number.
+2. When you host your project on gitHub change DATABASE_URL() to return ` ./data/restaurants.json `. And change all anchors href to have the url of your project on gitHub.
+3. When you form the array of urls to be cached write them in this way for example instead of` '/'` write './'.
