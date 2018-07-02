@@ -32,3 +32,14 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 4. Don't forget to change the port to your local host port number.
 5. When you host your project on gitHub change DATABASE_URL() to return ./data/restaurants.json. And change all anchors href to have the url of your project on gitHub.
 6. When you form the array of urls to be cached write them in this way for example instead of'/' write './'.
+
+
+### Image Rights
+
+
+=========================================================================
+ This pattern is downloaded from www.toptal.com/designers/subtlepatterns/
+ If you need more, that's where to get'em.
+ ========================================================================
+
+ 
