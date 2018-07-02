@@ -5,6 +5,7 @@
     #map-container, #map {
         width: 100%;
     }
+    /* ====================== Restaurant Filtering ====================== */
     .filter-options {
         height: 135px;
         align-items: center;
