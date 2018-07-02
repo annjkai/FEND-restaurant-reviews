@@ -60,6 +60,7 @@ header h1 {
     padding: 25px;
     text-align: center;
     text-transform: uppercase;
+	width: 100%;
 }
 
 /* ====================== Navigation ====================== */
@@ -96,6 +97,7 @@ nav h1 a {
 
 #breadcrumb li {
     display: inline;
+	width: 100%;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
