@@ -26,11 +26,9 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 
 ### Additional notes
 
-For accessibility requirements take care of aria roles for non semantic elements, labels, focus order and alternative text.
-For Responsive requirements take care of the position of map in restaurant.html page. Because its position is set to fixed.
-For service workers and cash part try to revise "introducing service worker" lesson and walk through service worker step by step with the lesson. You need to: Register a sw. (in the main.js) Test its status.(optional) In sw file : You will make use of install, activate, and fetch events listeners to make the followings: Open a cache/ Cache needed urls. / Delete old caches./ Respond to requests.
-Some extra notes:
-
-Don't forget to change the port to your local host port number.
-When you host your project on gitHub change DATABASE_URL() to return ./data/restaurants.json. And change all anchors href to have the url of your project on gitHub.
-When you form the array of urls to be cached write them in this way for example instead of'/' write './'.
+1. For accessibility requirements take care of aria roles for non semantic elements, labels, focus order and alternative text.
+2. For Responsive requirements take care of the position of map in restaurant.html page. Because its position is set to fixed.
+3. For service workers and cash part try to revise "introducing service worker" lesson and walk through service worker step by step with the lesson. You need to: Register a sw. (in the main.js) Test its status.(optional) In sw file : You will make use of install, activate, and fetch events listeners to make the followings: Open a cache/ Cache needed urls. / Delete old caches./ Respond to requests.
+4. Don't forget to change the port to your local host port number.
+5. When you host your project on gitHub change DATABASE_URL() to return ./data/restaurants.json. And change all anchors href to have the url of your project on gitHub.
+6. When you form the array of urls to be cached write them in this way for example instead of'/' write './'.
