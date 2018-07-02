@@ -4,6 +4,19 @@
     #map-container, #map {
         width: 100%;
     }
+    .filter-options {
+        height: 135px;
+        align-items: center;
+        text-align: center;
+    }
+    .filter-options h2 {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+    .filter-options select {
+        margin: 5px;
+    }
 }
 
 /*tablets*/
