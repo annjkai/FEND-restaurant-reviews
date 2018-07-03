@@ -21,11 +21,54 @@
     .filter-options h2 {
         width: 100%;
     }
+    #restaurant-sub-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    #restaurant-hours {
+        width: 100%;
+        padding: 0 10px 10px 35px;
+    }
+    #map-container {
+        width: 100%;
+    }
 }
 
 /*tablets*/
 
-@media screen and (min-width: 451px) and (max-width: 849px) {}
+@media screen and (min-width: 451px) and (max-width: 849px) {
+    #restaurant-img {
+        width: 70%;
+
+    }
+    #restaurant-cuisine {
+        width: 70%;
+
+    }
+    #restaurant-sub-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #restaurant-hours {
+        width: 100%;
+        padding: 0 0 15px 90px;
+    }
+    #map-container {
+        width: 100%;
+    }
+    #reviews-container {
+        width: 100%;
+    }
+    #reviews-list li {
+        width: 100%
+    }
+}
 
 /*desktops*/
 
