@@ -12,13 +12,13 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <h1 id="page-title"><a href="/">Restaurant Reviews</a></h1>
-        </nav>
-    </header>
 
     <main id="maincontent">
+        <header>
+            <nav>
+                <h1 id="page-title"><a href="/">Restaurant Reviews</a></h1>
+            </nav>
+        </header>
         <section id="map-container">
             <div id="map"></div>
         </section>
@@ -34,17 +34,15 @@
             </div>
             <ul id="restaurants-list"></ul>
         </section>
+        <footer id="footer">
+            <span>Annika Kaiser + Udacity (c) 2018</span>
+            <span><a href="/"><strong>Restaurant Reviews</strong></a></span> <span>All Rights Reserved.</span></p>
+        </footer>
     </main>
 
     <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
     <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlMNHz6HR7lDoFTndZ25ZQ3GOiuSFZvF8&libraries=places&callback=initMap"></script>
-
-
-    <footer id="footer">
-        Copyright (c) 2017
-        <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
-    </footer>
 
 </body>
 

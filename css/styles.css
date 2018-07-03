@@ -8,10 +8,8 @@ body, td, th, p {
     line-height: 1.5;
 }
 
-/*#fdfdfd*/
-
 body {
-    background-color: blue;
+    background-color: #ccc;
     margin: 0;
     position: relative;
 }
@@ -53,24 +51,28 @@ header h1 {
     padding-top: 25px;
 }
 
+span {
+    display: block;
+}
+
 #page-title {
-	font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Serif Pro', serif;
 }
 
 #maincontent {
     background: #f3f3f3 url("../img/circles-light.png");
     min-height: 100%;
+    width: 100%;
 }
 
 #footer {
-    background-color: #444;
+    background-color: #252831;
     color: #aaa;
     font-size: 8pt;
     letter-spacing: 1px;
-    padding: 25px;
+    padding: 15px 25px 5px 25px;
     text-align: center;
     text-transform: uppercase;
-    width: 100%;
 }
 
 /* ====================== Navigation ====================== */
@@ -248,7 +250,7 @@ nav h1 a {
 }
 
 .inside #map-container {
-    background: blue none repeat scroll 0 0;
+    background: #ccc none repeat scroll 0 0;
     height: 75%;
     position: fixed;
     right: 0;
@@ -366,5 +368,3 @@ nav h1 a {
     display: inline-block;
     text-align: right;
 }
-
-.reviews-comments {}
