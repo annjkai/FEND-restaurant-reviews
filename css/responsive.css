@@ -41,11 +41,9 @@
 @media screen and (min-width: 451px) and (max-width: 849px) {
     #restaurant-img {
         width: 70%;
-
     }
     #restaurant-cuisine {
         width: 70%;
-
     }
     #restaurant-sub-container {
         display: flex;
@@ -55,12 +53,15 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+    #restaurant-address {
+        margin: 5px 0 10px 115px;
+    }
     #restaurant-hours {
         width: 100%;
-        padding: 0 0 15px 90px;
+        margin: 5px 0 10px 40px;
     }
     #map-container {
-        width: 80%;
+        width: 100%;
     }
     #reviews-container {
         width: 80%;
