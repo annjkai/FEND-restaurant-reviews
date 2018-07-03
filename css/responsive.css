@@ -60,10 +60,10 @@
         padding: 0 0 15px 90px;
     }
     #map-container {
-        width: 100%;
+        width: 80%;
     }
     #reviews-container {
-        width: 100%;
+        width: 80%;
     }
     #reviews-list li {
         width: 100%
