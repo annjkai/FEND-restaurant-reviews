@@ -141,6 +141,8 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  //adds an image alt text for screen readers which simply notes the //restaurant name - I specifically chose not to add additional text
+  image.alt = restaurant.name;
   li.append(image);
 
   const name = document.createElement('h1');
