@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body, td, th, p {
     font-family: "Roboto", sans-serif;
     font-size: 10pt;
@@ -257,7 +262,7 @@ nav h1 a {
 }
 
 #restaurants-list li a {
-    background-color: #64DD17;
+    background-color: #558B2F;
     border-bottom: 3px solid #eee;
     color: #fff;
     display: inline-block;
@@ -295,6 +300,7 @@ nav h1 a {
     border-radius: 0 50px 0 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
 }
 
 #restaurant-cuisine {
@@ -308,22 +314,25 @@ nav h1 a {
     text-align: center;
     text-transform: uppercase;
     width: 50%;
+    margin-bottom: 15px;
 }
 
 #restaurant-address {
     font-size: 14pt;
-    margin: 5px 0 10px 65px;
+    width: 100%;
+    text-align: center;
 }
 
 #restaurant-sub-container {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 5px 0 10px 65px;
+    justify-content: center;
 }
 
 #restaurant-hours {
-    padding: 0 10px 0 0;
+    margin-bottom: 15px;
+    width: 20%;
 }
 
 #restaurant-hours td {
@@ -339,9 +348,11 @@ nav h1 a {
 #reviews-container {
     border-bottom: 1px solid #d9d9d9;
     border-top: 1px solid #fff;
-    padding: 40px 40px 20px 115px;
+    /*padding: 40px 40px 20px 115px;*/
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 20%;
 }
 
 #reviews-container h2 {
@@ -356,6 +367,7 @@ nav h1 a {
 #reviews-list {
     margin: 0;
     padding: 0;
+    width: 75%;
 }
 
 #reviews-list li {
