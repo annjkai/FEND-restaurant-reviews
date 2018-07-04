@@ -11,6 +11,7 @@
     nav h1 a {
         letter-spacing: 5px;
     }
+    /*
     .filter-options {
         height: 145px;
         text-align: center;
@@ -41,13 +42,13 @@
     }
     #reviews-list li {
         width: 100%;
-
-    }
+    } */
 }
 
 /*tablets*/
 
 @media screen and (min-width: 451px) and (max-width: 849px) {
+    /*
     #restaurant-img {
         width: 70%;
     }
@@ -78,7 +79,7 @@
     }
     #reviews-list li {
         width: 100%
-    }
+    } */
 }
 
 /*desktops*/

@@ -321,6 +321,7 @@ nav h1 a {
     font-size: 14pt;
     width: 100%;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 #restaurant-sub-container {
@@ -332,7 +333,7 @@ nav h1 a {
 
 #restaurant-hours {
     margin-bottom: 15px;
-    width: 20%;
+    width: 50%;
 }
 
 #restaurant-hours td {
@@ -352,7 +353,6 @@ nav h1 a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20%;
 }
 
 #reviews-container h2 {
@@ -365,7 +365,7 @@ nav h1 a {
 }
 
 #reviews-list {
-    margin: 0;
+    margin: auto;
     padding: 0;
     width: 75%;
 }
