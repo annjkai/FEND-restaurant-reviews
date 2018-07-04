@@ -1,5 +1,4 @@
 /*phones for ants*/
-
 @media screen and (min-width: 320px) and (max-width: 410px) {
     nav h1 a {
         font-size: 0.7em;
@@ -26,18 +25,15 @@
     }
 }
 
-/*mobile devices*/
-
+/*other mobile devices*/
 @media screen and (max-width: 450px) {
     nav h1 a {
         letter-spacing: 5px;
     }
 }
 
+/*I've left the following query in even though it's empty,
+as I'd like to come back and refine the app someday*/
+
 /*tablets*/
-
 @media screen and (min-width: 451px) and (max-width: 849px) {}
-
-/*desktops*/
-
-@media screen and (min-width: 850px) {}
