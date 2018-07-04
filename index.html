@@ -14,21 +14,22 @@
 <body>
     <header>
         <nav>
-            <h1 id="page-title"><a href="/">Restaurant Reviews</a></h1>
+            <h1 id="page-title" aria-label="Restaurant Reviews page header" tabindex="-1"><a href="/">Restaurant Reviews</a></h1>
         </nav>
     </header>
 
     <main id="maincontent">
         <section id="map-container">
-            <div id="map"></div>
+            <!-- ARIA role -->
+            <div id="map" aria-label="Map with multiple markers"></div>
         </section>
         <section>
             <div class="filter-options">
                 <h2>Filter Results</h2>
-                <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+                <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-label="Neighborhood selection" tabindex="1">
           <option value="all">All Neighborhoods</option>
         </select>
-                <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+                <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="Cuisine selection" tabindex="2">
           <option value="all">All Cuisines</option>
         </select>
             </div>
