@@ -1,86 +1,42 @@
-/*mobile devices*/
+/*phones for ants*/
 
 @media screen and (min-width: 320px) and (max-width: 410px) {
     nav h1 a {
         font-size: 0.7em;
         letter-spacing: 5px;
     }
+    #restaurant-name {
+        font-size: 1.5em;
+    }
+    #restaurant-address {
+        font-size: 1.1em;
+    }
+    #restaurant-hours {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #map {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    #reviews-list {
+        width: 90%;
+        margin-left: 10px;
+    }
 }
+
+/*mobile devices*/
 
 @media screen and (max-width: 450px) {
     nav h1 a {
         letter-spacing: 5px;
     }
-    /*
-    .filter-options {
-        height: 145px;
-        text-align: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 10px 0;
-    }
-    .filter-options h2 {
-        width: 100%;
-    }
-    #restaurant-sub-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-    }
-    #restaurant-hours {
-        width: 100%;
-        padding: 0 10px 10px 0;
-    }
-    #map-container {
-        width: 100%;
-    }
-    #reviews-container {
-        width: 80%;
-        margin-left: -95px;
-        margin-right: 20px;
-    }
-    #reviews-list li {
-        width: 100%;
-    } */
 }
 
 /*tablets*/
 
-@media screen and (min-width: 451px) and (max-width: 849px) {
-    /*
-    #restaurant-img {
-        width: 70%;
-    }
-    #restaurant-cuisine {
-        width: 70%;
-    }
-    #restaurant-sub-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    #restaurant-address {
-        margin: 5px 0 10px 115px;
-    }
-    #restaurant-hours {
-        width: 100%;
-        margin: 5px 0 10px 40px;
-    }
-    #map-container {
-        width: 100%;
-    }
-    #reviews-container {
-        width: 80%;
-        margin-right: 20px;
-    }
-    #reviews-list li {
-        width: 100%
-    } */
-}
+@media screen and (min-width: 451px) and (max-width: 849px) {}
 
 /*desktops*/
 
