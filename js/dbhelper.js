@@ -15,19 +15,6 @@ if ("serviceWorker" in navigator) {
         });
 }
 
-if (navigator.serviceWorker) {
-  navigator.serviceWorker
-    .register("sw.js")
-    .then(function(reg) {
-      console.log("Service Worker installation successful");
-
-    })
-    .catch(function(err) {
-      console.log("Service Worker installation not successful");
-    });
-}
-
-
 class DBHelper {
 
     /**
