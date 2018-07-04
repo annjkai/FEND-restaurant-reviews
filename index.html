@@ -22,18 +22,18 @@
     <!-- Beginning main content -->
     <main id="maincontent">
         <!-- Beginning map -->
-        <section id="map-container" tabindex="-1">
-            <div id="map" aria-label="Map with multiple markers"></div>
+        <section id="map-container">
+            <div id="map" aria-label="Map with multiple markers" tabindex="-1"></div>
         </section>
         <!-- End map -->
         <section>
             <!-- Beginning filter -->
             <div class="filter-options">
                 <h2>Filter Results</h2>
-                <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" tabindex="0" aria-label="Search by neighborhood">
+                <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" tabindex="1" aria-label="Search by neighborhood">
           <option value="all">All Neighborhoods</option>
         </select>
-                <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" tabindex="1" aria-label="Search by cuisine">
+                <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" tabindex="2" aria-label="Search by cuisine">
           <option value="all">All Cuisines</option>
         </select>
                 <!-- End filter -->
