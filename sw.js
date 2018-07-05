@@ -8,6 +8,16 @@ self.addEventListener("install", function(event) {
                 './',
                 './index.html',
                 './restaurant.html',
+                './restaurant.html?id=1',
+                './restaurant.html?id=2',
+                './restaurant.html?id=3',
+                './restaurant.html?id=4',
+                './restaurant.html?id=5',
+                './restaurant.html?id=6',
+                './restaurant.html?id=7',
+                './restaurant.html?id=8',
+                './restaurant.html?id=9',
+                './restaurant.html?id=10',
                 './css/styles.css',
                 './css/responsive.css',
                 './js/main.js',
@@ -30,6 +40,8 @@ self.addEventListener("install", function(event) {
 });
 
 self.addEventListener("fetch", function(event) {
+    //Thanks very much to Nicolas Marcora from the MWS track for his help!
+    const url = new URL(event.request.url);
     event.respondWith(
         caches.match(event.request).then(function(response) {
             return response || fetch(event.request);

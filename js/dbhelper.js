@@ -5,10 +5,12 @@
 //Service Worker
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker
-        .register("./sw.js")
+        .register("./sw.js", {
+            scope: ""
+        })
         .then(function(reg) {
             //registration successful
-            console.log("Service Worker registered");
+            console.log("Service Worker registered for" + reg.scope);
         }).catch(function(error) {
             //registration unsuccessful
             console.log("Registration failed, " + error);
