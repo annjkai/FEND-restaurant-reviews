@@ -24,17 +24,17 @@
     <main id="maincontent">
         <!-- Beginning map -->
         <section id="map-container">
-            <div id="map" aria-label="Map with multiple markers" tabindex="-1"></div>
+            <div id="map" role="application" aria-label="Map with multiple markers" tabindex="-1"></div>
         </section>
         <!-- End map -->
         <section>
             <!-- Beginning filter -->
-            <div class="filter-options">
+            <div class="filter-options" role="group">
                 <h2>Filter Results</h2>
-                <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" tabindex="1" aria-label="Search by neighborhood">
+                <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" tabindex="1" aria-label="Search by neighborhood"  role="list">
           <option value="all">All Neighborhoods</option>
         </select>
-                <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" tabindex="2" aria-label="Search by cuisine">
+                <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" tabindex="2" aria-label="Search by cuisine"  role="list">
           <option value="all">All Cuisines</option>
         </select>
                 <!-- End filter -->
