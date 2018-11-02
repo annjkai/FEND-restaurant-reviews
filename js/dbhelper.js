@@ -26,7 +26,8 @@ class DBHelper {
         //const port = 8000 // Change this to your server port
         //return `http://localhost:${port}/data/restaurants.json`;
         //return data/restaurants.json;
-        return "https://ajk-restaurant-reviews.netlify.com/data/restaurants.json"
+        //return "https://ajk-restaurant-reviews.netlify.com/data/restaurants.json"
+        return `http://localhost:127.0.0.1`;
     }
 
     /**
