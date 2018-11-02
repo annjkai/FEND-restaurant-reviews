@@ -18,7 +18,6 @@ if ("serviceWorker" in navigator) {
 }
 
 class DBHelper {
-
     /**
      * Database URL.
      * Change this to restaurants.json file location on your server.
@@ -27,7 +26,7 @@ class DBHelper {
         //const port = 8000 // Change this to your server port
         //return `http://localhost:${port}/data/restaurants.json`;
         //return data/restaurants.json;
-        return `https://ajk-restaurant-reviews.netlify.com/data/restaurants.json`
+        return "https://ajk-restaurant-reviews.netlify.com/data/restaurants.json"
     }
 
     /**
